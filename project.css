@@ -60,6 +60,8 @@ ul li a:hover {
     align-items: flex-start;
     margin-top: 50px;
     margin-left: 50px;
+    column-gap: 100px;
+    
 }
 
 .project-1{
@@ -68,5 +70,15 @@ ul li a:hover {
     width: 250px;
     background-image: url(cur.jpg);
     background-size: cover;
+
+} 
+
+.project-2{
+
+    height: 250px;
+    width: 250px;
+    background-image: url(texterrr.png);
+    background-size: cover;
+    border-radius: 50px;
 
 } 
