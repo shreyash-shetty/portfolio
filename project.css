@@ -59,9 +59,16 @@ ul li a:hover {
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 50px;
-    margin-left: 50px;
-    column-gap: 100px;
+    margin-left: 10px;
+    column-gap: 130px;
     
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .project-1{
@@ -70,7 +77,8 @@ ul li a:hover {
     width: 250px;
     background-image: url(cur.jpg);
     background-size: cover;
-
+    border-radius: 50px;
+    cursor: pointer;
 } 
 
 .project-2{
@@ -80,5 +88,16 @@ ul li a:hover {
     background-image: url(texterrr.png);
     background-size: cover;
     border-radius: 50px;
+    cursor: pointer;
+
+} 
+.project-3{
+
+    height: 250px;
+    width: 250px;
+    background-image: url(password.png);
+    background-size: cover;
+    border-radius: 50px;
+    cursor: pointer;
 
 } 
